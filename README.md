@@ -8,10 +8,10 @@ Workshop on consumer driven contracts
 - FE: Node & NPM & Angular CLI 
 
 ## Terminology
-Consumer -> sends an HTTP request (or listen to a message from the queue - not covered)
-Producer -> responds to an HTTP request (or publishes a message to the queue - not covered)
-Service -> Backend service / microservice / backend client
-Frontend -> Web app., Angular app., frontend client
+- Consumer: sends an HTTP request (or listen to a message from the queue - not covered)
+- Producer: responds to an HTTP request (or publishes a message to the queue - not covered)
+- Service: Backend service / microservice / backend client
+- Frontend: Web app., Angular app., frontend client
 
 ## Pair up
 Pair up in teams of 2. Make sure there is someone with backend knowledge, and someone with frontend knowledge.
