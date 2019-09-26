@@ -69,11 +69,11 @@ Make sure to define the following:
 Keep this document as a reference for later.
 
 ### Assignment 2: A REST backend provider and a frontend consumer: Write the contracts in Spring Cloud Contract
-#### Task 1(Consumer/Producer): Create the contract on the producer side.
-Consumer driven, does not mean consumer owned. 
+#### Task 1(Consumer/Producer does not have to be here but help is appreciated): Create the contract on the producer side.
+Consumer driven, does not mean consumer owned.
 Contracts remain with the producer in Spring cloud contracts.
 
-1. Clone the sanda-registrations service (producer)
+1. Fork and clone the sanda-registrations service (producer)
 2. Create the groovy contracts based on the definition you created in the first assignment.
 ([HTTP Contract DSL Documentation](https://cloud.spring.io/spring-cloud-contract/reference/html/project-features.html#features-http))
 3. When you are ready create a PR in the producer repository.
@@ -188,8 +188,8 @@ The contracts are no longer on the producer side. Instead, consumer generates th
 For some reading material, have a look at: https://ordina-jworks.github.io/spring/2018/04/28/Spring-Cloud-Contract-meet-Pact.html and https://docs.pact.io
 
 1. Open the sanda-registration project (producer)
-2. Configure the contracts repository url: ```https://ordina-jworks.github.io/spring/2018/04/28/Spring-Cloud-Contract-meet-Pact.html```
-3. Configure Basic Authentication (username: admin, password: lorceng)
+2. Configure the contracts repository url: ```https://jworks-ordina-pact-broker.herokuapp.com/```
+3. Configure Basic Authentication (ask for credentials)
 4. Set contracts mode to REMOTE
 5. Now you should be able to download contracts and generate tests.
 6. Make sure all the tests pass on the consumer side
