@@ -17,6 +17,20 @@ Workshop on consumer driven contracts
 Pair up in teams of 2. Make sure there is someone with backend knowledge, and someone with frontend knowledge.
 Come up with a unique consumer name, and a unique producer name and use these names as the basepath for your urlpath in contracts
 
+## Repositories
+- [sanda-tournaments](https://github.com/ordina-jworks/cdc-sanda-tounaments)
+- [sanda-registrations](https://github.com/ordina-jworks/cdc-sanda-registrations)
+- [sanda-registrations-client](https://github.com/ordina-jworks/cdc-sanda-registrations-client)
+
+## Reference documentation
+- [Martin Fowler on CDC](https://martinfowler.com/articles/consumerDrivenContracts.html)
+- [Spring cloud contracts](https://cloud.spring.io/spring-cloud-contract/reference/html/index.html)
+- [Contract DSL](https://cloud.spring.io/spring-cloud-contract/reference/html/project-features.html#contract-dsl)
+- [HTTP Contracts](https://cloud.spring.io/spring-cloud-contract/reference/html/project-features.html#features-http)
+- [Wiremock](http://wiremock.org/)
+- [Pact](https://docs.pact.io/)
+- [PactJS](https://github.com/pact-foundation/pact-js)
+
 ## HTTP Contracts with Spring Cloud Contracts
 ### Assignment 1: A frontend consumer and a REST backend provider
 
